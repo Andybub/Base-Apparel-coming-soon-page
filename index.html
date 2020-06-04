@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="./normalize/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./JS/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="smallDevice">
+        <header>
+          <div class="logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="logo" />
+            </a>
+          </div>
+        </header>
+
+        <div class="smallDevice-img">
+          <img src="./images/hero-mobile.jpg" alt="hero-mobile" />
+        </div>
+
+        <main>
+          <div class="teaser">
+            <div class="teaser-title teaser-title_gold teaser-title_thin">
+              We're
+            </div>
+            <div class="teaser-title">coming soon</div>
+            <div class="teaser-detail">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </div>
+            <div class="emailAddressInput">
+              <input type="text" placeholder="Email Address" />
+              <a href="#" class="submit">
+                <img src="./images/icon-arrow.svg" alt="arrow" />
+              </a>
+              <span class="warning">Please provide a valid email</span>
+              <img src="./images/icon-error.svg" alt="exclamationMark" class="exclamationMark">
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <div class="bigDevice">
+        <div class="bigDevice-img">
+          <img src="./images/hero-desktop.jpg" alt="hero" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
